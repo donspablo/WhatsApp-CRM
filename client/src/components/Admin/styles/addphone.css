@@ -1,41 +1,41 @@
 .addphone__container {
-	grid-area:main;
-	overflow-y: scroll;
+    grid-area: main;
+    overflow-y: scroll;
 }
 
 .addphone__status {
-	border-bottom: 1px solid lightgray;
-	height: 40px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
- 
+
 .addphone__status .status__green {
-	color: green;
-	font-weight: 700;
+    color: green;
+    font-weight: 700;
 }
 
 .addphone__status .status__red {
-	color: red;
-	font-weight: 700;
+    color: red;
+    font-weight: 700;
 }
- 
+
 .addphone__parent > img {
-	max-width:100%;
-	max-height:100%;
-} 
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .loading__spinner {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .loading__spinner__screen {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

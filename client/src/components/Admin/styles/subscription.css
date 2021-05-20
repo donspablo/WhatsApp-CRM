@@ -1,219 +1,219 @@
 .subscr__container {
-	grid-area:main;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 0.3fr 3fr;
-	grid-template-areas:
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 3fr;
+    grid-template-areas:
 		"topleft toprow toprow toprow"
 		"leftbar mainarea mainarea mainarea";
 }
 
 .billing__heading {
-	grid-area: topleft; 
-	border-right: 1px solid lightgray;
-	border-bottom: 1px solid lightgray;
-	background-color: #e3fbe3;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    grid-area: topleft;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: #e3fbe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .billing__footer {
-	grid-area: leftbar;
-	border-right: 1px solid lightgray;
-	background-color: #e3fbe3;
+    grid-area: leftbar;
+    border-right: 1px solid lightgray;
+    background-color: #e3fbe3;
 }
 
 .billing__footer > p {
-	text-align: center;
-	margin: 10px;
-	padding: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 .billing__footer > p:hover {
-	color: #006b38ff;
-	cursor: pointer;
+    color: #006b38ff;
+    cursor: pointer;
 }
 
 .active__tab {
-	color: #006b38ff;
-	font-weight: 700;
+    color: #006b38ff;
+    font-weight: 700;
 }
 
 .expanded__topright {
-	grid-area: toprow;
-	border-bottom: 1px solid lightgray;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    grid-area: toprow;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .expanded__downright {
-	grid-area: mainarea;
-	padding: 30px; 
-	overflow-y: scroll;
+    grid-area: mainarea;
+    padding: 30px;
+    overflow-y: scroll;
 }
 
 .payment__container {
-	border: 1px solid lightgray;
-	height: 100%;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.5fr 1fr 1.5fr;
-	grid-template-areas:
+    border: 1px solid lightgray;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1.5fr;
+    grid-template-areas:
 		"paymentTop"
 		"paymentMid"
 		"paymentBottom";
 }
 
 .payment__top {
-	grid-area: paymentTop;
-	border-bottom: 1px solid lightgray;
-	color: gray;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    grid-area: paymentTop;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .payment__top_toptext {
-	display: none;
+    display: none;
 }
 
 .payment__top_bottomtext {
-	color: black;
+    color: black;
 }
 
 .min__agents {
-	font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .payment__top > div {
-	margin: 3px;
+    margin: 3px;
 }
 
 .payment__mid {
-	grid-area: paymentMid;
-	border-bottom: 1px solid lightgray;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+    grid-area: paymentMid;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .payment__mid__card {
-	text-align: center;
-	padding: 30px;
-	border-radius: 5px;
-	box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #fff;
-	border: none;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #fff;
+    border: none;
 }
 
 .plan__clicked {
-	text-align: center;
-	padding: 30px;
-	border-radius: 5px;
-	box-shadow: 5px 5px 13px #e3fbe3, -5px -5px 13px #e3fbe3;
-	font-weight: 700;
-	color: green;
-	border: none;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 13px #e3fbe3, -5px -5px 13px #e3fbe3;
+    font-weight: 700;
+    color: green;
+    border: none;
 }
 
 .payment__mid__card:hover, .plan__clicked:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .payment__mid__card > .payment__mid__desc {
-	color: gray;
+    color: gray;
 }
 
 .payment__bottom {
-	grid-area: paymentBottom;
-	text-align: right;
+    grid-area: paymentBottom;
+    text-align: right;
 }
 
 .agent__count {
-	margin: 10px;
-	font-weight: 700;
-	border-bottom: 1px solid lightgray;
-	padding-bottom: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+    margin: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .agent__count > .label__text1 {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .agent__count > input {
-	padding: 5px;
-	width: 10%;
+    padding: 5px;
+    width: 10%;
 }
 
 .billing__cycle {
-	margin: 10px;
-	border-bottom: 1px solid lightgray;
-	padding-bottom: 20px;
-	display: flex;
-	justify-content: flex-end;
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .billing__cycle > .label__text2 {
-	width: 65%;
-	text-align: center;
-	font-weight: 700;
+    width: 65%;
+    text-align: center;
+    font-weight: 700;
 }
 
 .billing__radio {
-	position: relative;
-	margin: 20px 0;
+    position: relative;
+    margin: 20px 0;
 }
 
 .billing__radio input {
-	position: absolute;
-	margin: 5px;
-	padding: 0;
+    position: absolute;
+    margin: 5px;
+    padding: 0;
 }
 
 .billing__radio .label-visible {
-	margin-left: 1.5em;
-	margin-bottom: 0; 
+    margin-left: 1.5em;
+    margin-bottom: 0;
 }
 
 
 .billing__cycle > p {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .total__bill {
-	margin: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 .bill__estimate {
-	font-weight: 700;
-	width: 57%;
-	text-align: right;
+    font-weight: 700;
+    width: 57%;
+    text-align: right;
 }
 
 .submit__payment__plan {
-	margin: 10px;
-	margin-top: 30px;
+    margin: 10px;
+    margin-top: 30px;
 }
 
 .label__text {
-	border: 1px solid red;
-	text-align: center;
+    border: 1px solid red;
+    text-align: center;
 }
 
 .bill__error {
-	padding-top: 0;
-	color: red;
-	font-weight: 700;
+    padding-top: 0;
+    color: red;
+    font-weight: 700;
 }
 
 

@@ -3,4 +3,4 @@ import Cryptic from "./encrypt";
 
 export default Cryptic;
 
-export { SessionDataContext };
+export {SessionDataContext};

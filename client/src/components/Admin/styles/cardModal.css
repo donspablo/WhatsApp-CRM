@@ -1,60 +1,60 @@
 .credit__card > button {
-	font-size: 15px;
-	padding: 4px 16px;
-	min-width: 32px;
-	min-height: 32px;
-	background-color: #3ea175;
-	color: #fff;
+    font-size: 15px;
+    padding: 4px 16px;
+    min-width: 32px;
+    min-height: 32px;
+    background-color: #3ea175;
+    color: #fff;
     border: 1px solid #3ea175;
     cursor: pointer;
     border-radius: 4px;
-    font-weight: 600; 
+    font-weight: 600;
     line-height: 1.5;
 }
 
 .all__modal {
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgb(0, 0, 0, 0.5);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	opacity: 0;
-	transition: all 0.3s ease-in-out;
-	pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
 }
 
 .all__modal.show {
-	opacity: 1;
-	pointer-events: visible;
+    opacity: 1;
+    pointer-events: visible;
 }
 
 .all__modal__content {
-	width: 500px;
-	background-color: #fff;
-	transform: translateY(-200px);
-	transition: all 0.3s ease-in-out;
+    width: 500px;
+    background-color: #fff;
+    transform: translateY(-200px);
+    transition: all 0.3s ease-in-out;
 }
 
 .all__modal.show .all__modal__content {
-	transform: translateY(0);
+    transform: translateY(0);
 }
 
 .all__modal__header, .all__modal__footer {
-	padding: 10px;
+    padding: 10px;
 }
 
 .all__modal__title {
-	margin: 0;
-	text-align: left;
+    margin: 0;
+    text-align: left;
 }
 
 .all__modal__body {
-	padding: 10px;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
-	text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    text-align: left;
 }

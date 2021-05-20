@@ -1,90 +1,90 @@
 .signin {
- 	background-color: #f8f8f8;
- 	height: 100vh;
- 	width: 100vw;
- 	display: grid;
- 	place-items: center;
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
 }
 
-.signin__container { 
- 	text-align: center;
- 	position: relative;
- 	border-radius: 10px;
- 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0, 1px;
+.signin__container {
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0, 1px;
 }
 
 .brand__name:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
-.signin__container > img { 
-  	object-fit: contain;
-  	height: 200px;
-  	margin-bottom: 180px;
-  	margin-top: -180px;
-} 
+.signin__container > img {
+    object-fit: contain;
+    height: 200px;
+    margin-bottom: 180px;
+    margin-top: -180px;
+}
 
 .form-container {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 300px;
-	padding: 20px 20px;
-	border-radius: 10px;
-	box-shadow: 7px 7px 20px #000;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px #000;
 }
 
 .form-container > h1 {
-	text-transform: uppercase;
-	font-size: 1.8em;
-	text-align: center;
-	margin-bottom: 1.5em;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 
 .control label {
-	display: block;
-	width: 100%;
-	text-align: left;
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 
 .control input {
-	width: 100%;
-	display: block;
-	padding: 10px;
-	color: #222;
-	border: none;
-	outline: none;
-	box-sizing: border-box;
-	margin: 0.7em 0; 
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0.7em 0;
 }
 
 .control input[type="submit"] {
-	background: #4FCE5D;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1em;
-	opacity: .8;
+    background: #4FCE5D;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    opacity: .8;
 }
 
-.control input[type="submit"]:hover,  .link div:hover{
-	cursor: pointer;
+.control input[type="submit"]:hover, .link div:hover {
+    cursor: pointer;
 }
 
 .error__message {
-	color: red;
+    color: red;
 }
 
 .forgot__password {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .forgot__password > div {
-	padding: 2px;
+    padding: 2px;
 }
 
 .forgot__password > div:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 

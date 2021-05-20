@@ -1,35 +1,14 @@
 import React from "react";
+
 const FirebaseContext = React.createContext(null);
 
 export const withFirebase = Component => props => (
-	<FirebaseContext.Consumer>
-		{ firebase => <Component {...props} firebase={firebase}/> } 
-	</FirebaseContext.Consumer>
+    <FirebaseContext.Consumer>
+        {firebase => <Component {...props} firebase={firebase}/>}
+    </FirebaseContext.Consumer>
 )
 
 export default FirebaseContext;
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
 
 
 // import React, { useState } from "react";
@@ -47,7 +26,7 @@ export default FirebaseContext;
 // 	}
 
 // 	return(
-// 			<firebaseAuth.Provider 
+// 			<firebaseAuth.Provider
 // 				value={{ handleSignup, newUserInput, setNewUserInput, errors }}
 // 			>
 // 				{ children }

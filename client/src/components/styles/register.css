@@ -1,82 +1,82 @@
 #brand__name {
-	margin-bottom: 20px;
-	font-size: 1.8rem;
-	font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .register__body {
-	display: flex;
-	flex-direction: column;
-	background-color: #fff;
-	height: 80vh;
-	width: 40vw;
-	box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 80vh;
+    width: 40vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.55);
 }
- 
+
 .form__heading {
-	text-align: center;
-	padding: 15px;
+    text-align: center;
+    padding: 15px;
 }
 
 .form__heading > p {
-	font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .form__container {
-	padding: 20px;
+    padding: 20px;
 }
 
 .form__container > .company__container, .form__container > .email__container, .form__container > .password__container {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .company__container__input, .email__container__input, .password__container, .submit__container {
-	width: 100%;
+    width: 100%;
 }
 
 .company__container__input > input, .email__container__input > input, .password__container__input > input {
-	height: 40px;
-	padding: 5px 15px;
-	box-sizing: border-box;
-	width: 100%;
+    height: 40px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .submit__container > button {
-	background-color: #4FCE5D;
-	border: 2px solid #4FCE5D;
-	color: #fff;
-	font-size: 1.125rem;
-	line-height: 1.5625rem;
-	padding: 5px 15px;
-	box-sizing: border-box;
-	width: 100%;
-	height: 40px;
-	margin-top: 20px;
+    background-color: #4FCE5D;
+    border: 2px solid #4FCE5D;
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
 }
 
 .submit__container > button:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .signup__error {
-	color: red;
+    color: red;
 }
 
 .register__midway {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .register__loader {
-	flex: 1.1;
-	display: flex;
-	justify-content: flex-start;
+    flex: 1.1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .reg_one {
-	flex: 0.9;
-	display: flex;
-	justify-content: flex-start;
+    flex: 0.9;
+    display: flex;
+    justify-content: flex-start;
 }
 

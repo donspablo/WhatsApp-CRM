@@ -1,64 +1,64 @@
 .response__modal {
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(0,0,0,0.5);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	opacity: 0;
-	transition: all 0.3s ease-in-out;
-	pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
 }
 
 .response__modal.show {
-	opacity: 1;
-	pointer-events: visible;
+    opacity: 1;
+    pointer-events: visible;
 }
 
 .response__modal.enter-done {
-	opacity: 1;
-	pointer-events: visible;
+    opacity: 1;
+    pointer-events: visible;
 }
 
 .response__modal.exit {
-	opacity: 0;
+    opacity: 0;
 }
 
 .response__modal__content {
-	width: 500px;
-	background-color: #fff;
-	transform: translateY(-200px);
+    width: 500px;
+    background-color: #fff;
+    transform: translateY(-200px);
 }
 
 .response__modal.enter-done .response__modal__content {
-	transform: translateY(0);
+    transform: translateY(0);
 }
 
 .response__modal.exit .response__modal__content {
-	transform: translateY(-200px);
+    transform: translateY(-200px);
 }
 
 .response__modal.show .response__modal__content {
-	transform: translateY(0);
+    transform: translateY(0);
 }
 
 .response__modal__header, .response__modal__footer {
-	padding: 10px;
+    padding: 10px;
 }
 
 .response__modal__footer {
-	text-align: right;
+    text-align: right;
 }
 
 .response__modal__title {
-	margin: 0;
+    margin: 0;
 }
 
 .response__modal__body {
-	padding: 10px;
-	border-top: 1px solid #eee;
-	border-bottom: 1px solid #eee;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }

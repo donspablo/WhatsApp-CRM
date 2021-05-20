@@ -1,87 +1,87 @@
 .homepage__container {
-	width: 100vw;
-	height: 100vh;
-	background-color: #f8f8f8;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f8f8;
 }
 
 .home__container {
-	height: 100%;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-areas: 
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
 		"l l l l l r r r r r r r";
-} 
+}
 
 .home__leftarea {
-	grid-area: l;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 0.1fr 1fr 0.1fr;
-	grid-template-areas: 
+    grid-area: l;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
 		"t t t t t t t t t t t t"
 		"b b b b b b b b b b b b"
 		"f f f f f f f f f f f f";
 }
 
 .home__leftarea button:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .home__rightarea {
-	grid-area: r;
+    grid-area: r;
 }
 
 .home__leftarea > .home__leftarea__top {
-	grid-area: t;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-bottom: 1px solid lightgrey;
-	margin: 15px;
-	padding-bottom: 15px;
+    grid-area: t;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    margin: 15px;
+    padding-bottom: 15px;
 }
 
 .home__leftarea > .home__leftarea__bottom {
-	grid-area: b;
-	margin: 15px;
+    grid-area: b;
+    margin: 15px;
 }
 
 .home__leftarea__bottom div {
-	padding: 20px;
+    padding: 20px;
 }
 
 .hero__text {
-	text-align: center;
+    text-align: center;
 }
 
 .hero__text > h5 {
-	font-size: 1.5rem;
-	margin-bottom: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 3px;
 }
 
 .hero__button {
-	text-align: center;
+    text-align: center;
 }
 
 .hero__button > button {
-	padding: 5px 15px;
-	background-color: #25d366;
-	border: 2px solid #25d366;
-	border-radius: 2px;
-	color: #fff;
+    padding: 5px 15px;
+    background-color: #25d366;
+    border: 2px solid #25d366;
+    border-radius: 2px;
+    color: #fff;
 }
 
 .home__leftarea__footer {
-	grid-area: f;
-	margin: 15px;
-	padding: 5px;
-	border-top: 1px solid lightgrey;
+    grid-area: f;
+    margin: 15px;
+    padding: 5px;
+    border-top: 1px solid lightgrey;
 }
 
 .whatsapp-icon {
-	color: #25d366;
-	font-weight: 700;
-	font-size: 16px;
+    color: #25d366;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 
