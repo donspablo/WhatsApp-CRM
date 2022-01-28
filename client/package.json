@@ -12,7 +12,7 @@
     "axios": "^0.21.1",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
-    "firebase": "^8.2.1",
+    "firebase": "^9.6.5",
     "flutterwave-react-v3": "^1.0.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
