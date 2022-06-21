@@ -1,7 +1,4 @@
-<h3 align="center">🖐️ HELLO: How are you? My name is Pablo, I'd like to take this opportunity to introduce myself.</h3>
-<p align="center"><i>My passion in open-source software development has developed to the point that I am actively seeking financial aid to assist me in accomplishing both professional and personal goals. The funds will enable me to continue working full-time and developing fantastic applications, in addition to upgrading and maintaining my existing ones. I have created a fundraising page specifically for the purpose of storing my related fundraising materials. Your support would be really helpful and greatly appreciated - Thank you 🙏</i></p>
-<p align="center">https://github.com/sponsors/donPablo ] I||I [ https://www.patreon.com/donpablonow</p>
-<img src="https://github.com/donPabloNow/donPabloNow/raw/main/assets/Wave_2400.gif"/>
+<p align="center">📢<sub><sup> <i><b> YOUR SUPPORT IS GREATLY APPRECIATED / </b> <a href="https://www.patreon.com/donPabloNow">PATREON.COM/DONPABLONOW</a> / <b>BTC</b>  3HVNOVVMLHVEWQLSCCQX9DUA26P5PRCTNQ / <b>ETH</b> 0X3D288C7A673501294C9289C6FC42480A2EA61417 </i>🙏 </sub></sup></p><blockquote><p> ⛔️ <sub><b>ARCHIVE PENDING</b>: This endeavour is likely to fail owing to a lack of support. If you find this project interesting, please support it by smashing the "star" button. If the project receives at some interest work on the project will continue.</sub></p></blockquote></br><a href="https://www.donPabloNow.com/#notice"><img src="https://www.donPabloNow.com/notice.wepd"/></a></br></br>
 # WhatsApp CRM
 
 This is a Node.js application powered by Firebase, Express, React and Node.js that provides a one-to-many and
